@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./build/CSS/Style.css">
+
+    <title>JsvaScript</title>
+</head>
+
+<body>
+    <header class="shadow-lg bg-body rounded" style="width: 194.4vh;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid px-5">
+                <a class="navbar-brand" href="#">JavaScript</a>
+            </div>
+        </nav>
+    </header>
+    <div class="sectionOneOfBody container-fluid d-flex mt-2">
+        <section class="s1.1 shadow-lg bg-body rounded" style="width: 30vh; height: 100vh;">
+            <div class="flex-shrink-0 p-3 bg-light overflow-auto" style="width: 30vh; height: 100vh;">
+                <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+                    <span class="fs-5 fw-semibold">Topics...</span>
+                </a>
+                <ul class="list-unstyled ps-0">
+                    <li class="mb-1">
+                        <a href="#" class="dropdown-item">- JavaScript Introduction</a>
+                    </li>
+
+                    <li class="border-top my-3"></li>
+
+                    <li class="mb-1">
+                        <a href="#" class="dropdown-item">- Variables</a>
+                    </li>
+
+                    <li class="mb-1">
+                        <a href="#" class="dropdown-item">- Closures</a>
+                    </li>
+
+                    <li class="border-top my-3"></li>
+
+                    <li class="mb-1">
+                        <button class="btn btn-toggle rounded " data-bs-toggle="collapse"
+                            data-bs-target="#Types-collapse" aria-expanded="false">
+                            <strong style="color: cornflowerblue;">#</strong> Types
+                        </button>
+                        <div class="collapse" id="Types-collapse">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                <li><a href="#" class="dropdown-item">- Primitives</a></li>
+                                <li><a href="#" class="dropdown-item">- Complex</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#Conditionals-collapse" aria-expanded="false">
+                            <strong style="color: cornflowerblue;">#</strong> Conditionals
+                        </button>
+                        <div class="collapse" id="Conditionals-collapse">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                <li><a href="#" class="dropdown-item">- if/else</a></li>
+                                <li><a href="#" class="dropdown-item">- switch case</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    
+                    <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#Scopes-collapse" aria-expanded="false">
+                            <strong style="color: cornflowerblue;">#</strong> Scopes
+                        </button>
+                        <div class="collapse" id="Scopes-collapse">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                <li><a href="#" class="dropdown-item">- Block scope</a></li>
+                                <li><a href="#" class="dropdown-item">- Function scope</a></li>
+                                <li><a href="#" class="dropdown-item">- Global scope</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="border-top my-3"></li>
+
+                    <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#Objects-collapse" aria-expanded="false">
+                            <strong style="color: cornflowerblue;">#</strong> Objects
+                        </button>
+                        <div class="collapse" id="Objects-collapse">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                <li><a href="#" class="dropdown-item">- Objects syntax</a></li>
+                                <li><a href="#" class="dropdown-item">- Objects destructuring</a></li>
+                                <li class="mb-1">
+                                    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                                        data-bs-target="#ObjectsPM-collapse" aria-expanded="false">
+                                        <strong style="color: rgb(0, 102, 255);">#</strong> Objects Prototype Methods
+                                    </button>
+                                    <div class="collapse" id="ObjectsPM-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="#" class="dropdown-item">- Block scope</a></li>
+                                            <li><a href="#" class="dropdown-item">- Function scope</a></li>
+                                            <li><a href="#" class="dropdown-item">- Global scope</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#Arrays-collapse" aria-expanded="false">
+                            <strong style="color: cornflowerblue;">#</strong> Arrays
+                        </button>
+                        <div class="collapse" id="Arrays-collapse">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                <li><a href="#" class="dropdown-item">- Arrays syntax</a></li>
+                                <li><a href="#" class="dropdown-item">- Arrays destructuring</a></li>
+                                <li class="mb-1">
+                                    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                                        data-bs-target="#ArraysPM-collapse" aria-expanded="false">
+                                        <strong style="color: rgb(0, 102, 255);">#</strong> Arrays Prototype Methods
+                                    </button>
+                                    <div class="collapse" id="ArraysPM-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="#" class="dropdown-item">- Block scope</a></li>
+                                            <li><a href="#" class="dropdown-item">- Function scope</a></li>
+                                            <li><a href="#" class="dropdown-item">- Global scope</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="mb-1">
+                        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#Functions-collapse" aria-expanded="false">
+                            <strong style="color: cornflowerblue;">#</strong> Functions
+                        </button>
+                        <div class="collapse" id="Functions-collapse">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                <li><a href="#" class="dropdown-item">- Normal function</a></li>
+                                <li><a href="#" class="dropdown-item">- Arrow function</a></li>
+                                <li><a href="#" class="dropdown-item">- Anonymous function</a></li>
+                                <li><a href="#" class="dropdown-item">- Lambda function</a></li>
+                                <li class="mb-1">
+                                    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
+                                        data-bs-target="#functionPM-collapse" aria-expanded="false">
+                                        <strong style="color: rgb(0, 102, 255);">#</strong> Function Prototype Methods
+                                    </button>
+                                    <div class="collapse" id="functionPM-collapse">
+                                        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                            <li><a href="#" class="dropdown-item">- Block scope</a></li>
+                                            <li><a href="#" class="dropdown-item">- Function scope</a></li>
+                                            <li><a href="#" class="dropdown-item">- Global scope</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="s1.2 mx-2">
+            <main class="bg-main order-1 overflow-auto" style="width: 100vh;">
+                <div class="flex-shrink-0 p-3 bg-light" style="height: 100vh;">
+                    <a href="/"
+                        class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+                        <span class="fs-5 fw-semibold">Learn...</span>
+                    </a>
+                    <div class="row row-cols-1 row-cols-md-1 g-4">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-header">
+                                    Featured
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Special title treatment</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-header">
+                                    Featured
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Special title treatment</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-header">
+                                    Featured
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Special title treatment</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-header">
+                                    Featured
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Special title treatment</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-header">
+                                    Featured
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Special title treatment</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-header">
+                                    Featured
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Special title treatment</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-header">
+                                    Featured
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Special title treatment</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </section>
+    </div>
+</body>
+<script src="./build/JS/Script.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</html>
